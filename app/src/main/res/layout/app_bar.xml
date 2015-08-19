@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content">
+
+<TextView
+    android:id="@+id/grocery_label"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end|center_vertical"
+    android:text="@string/grocery_items"
+    android:textColor="@android:color/black"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:shadowColor="@android:color/darker_gray"
+    android:shadowDx="5"
+    android:shadowDy="5"
+    android:shadowRadius="2"
+    android:textSize="24sp"/>
+</android.support.v7.widget.Toolbar>

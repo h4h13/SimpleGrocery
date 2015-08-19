@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.sharebuttons.grocery.fragment.DetailFragment">
+
+
+    <TextView
+        android:id="@+id/catItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="2"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/detailList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/catItem"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:id="@+id/addItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/round_bg"
+        android:src="@drawable/ic_add_white_48dp"/>
+</RelativeLayout>

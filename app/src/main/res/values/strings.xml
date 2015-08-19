@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Grocery</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="how_many_label">How many</string>
+    <string name="item_name">Item name</string>
+    <string name="grocery_items">Grocery Items</string>
+    <string name="add_desc">Button add</string>
+    <string-array name="metrics">
+        <item>g</item>
+        <item>mg</item>
+        <item>kg</item>
+        <item>s</item>
+        <item>ml</item>
+        <item>lt</item>
+        <item>pkt</item>
+        <item>pkts</item>
+        <item>ea</item>
+        <item>lb</item>
+        <item>gal</item>
+        <item>pt</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="add_label">Add</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="dot">Icon Dot</string>
+    <string name="cross">Cross</string>
+    <string name="company_label">ShareButtons</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="share_app_label">Share App</string>
+    <string name="about_label">About</string>
+    <string name="help">Help</string>
+    <string name="rate_app">Rate app</string>
+    <string name="drawer_close">close</string>
+    <string name="drawer_open">open</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="enter_name">Enter Username</string>
+    <string name="name_label">Name</string>
+    <string name="user_logo">user logo</string>
+    <string name="share_items">Share Grocery Items</string>
+    <string name="edit_items">Edit Items</string>
+    <string name="others_label">Others</string>
+    <string name="app_label">App</string>
+    <string name="title_activity_start_up_help">GroceryItems</string>
+    <string name="help_label">Help</string>
+    <string name="title_activity_main">" "</string>
+    <string name="speech_prompt">Speak Now</string>
+    <string name="speech_not_supported">Sorry! Your device not supporting speech input</string>
+    <string name="add_item">Add a item…</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment_details">"Grocery "</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="speech_icon">Speech Icon</string>
+    <string name="select_the_cat">Select the category</string>
+    <string name="speech_input">Speech Input</string>
+</resources>

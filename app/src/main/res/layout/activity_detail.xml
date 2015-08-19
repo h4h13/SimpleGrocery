@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.sharebuttons.grocery.ui.FragmentDetailsActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_teal_500"
+        android:orientation="horizontal">
+
+        <TextView
+            android:onClick="addCategory"
+            android:id="@+id/fab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="16dp"
+            android:text="@string/add_item"
+            android:textColor="@color/md_white_1000"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/textSpeech"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:contentDescription="@string/speech_icon"
+            android:padding="12dp"
+            android:src="@drawable/ic_mic_black_48dp"
+            android:tint="@android:color/white"/>
+    </LinearLayout>
+</LinearLayout>
